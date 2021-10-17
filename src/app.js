@@ -12,7 +12,7 @@ app.use(morgan('dev'));
 
 app.use('/api', route);
 
- Connect to mongodb
+// Connect to mongodb
  mongoose.connect(
      process.env.DB_CON_STRING,
      { 
